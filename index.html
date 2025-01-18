@@ -133,26 +133,6 @@
             >https://mkkelvinhk.hide.li</a
         </li>
       </ul>
-      <h1>The Other Side of Me</h1>
-      <button class="toggle-button" onclick="toggleContent()">Show More</button>
-      <ul class="toggle-content">
-        <li>Detail 1</li>
-        <li>Detail 2</li>
-        <li>Detail 3</li>
-      </ul>
     </header>
   </article>
-  <script>
-    function toggleContent() {
-      const content = document.querySelector('.toggle-content');
-      const button = document.querySelector('.toggle-button');
-      if (content.style.display === 'none' || content.style.display === '') {
-        content.style.display = 'block';
-        button.textContent = 'Show Less';
-      } else {
-        content.style.display = 'none';
-        button.textContent = 'Show More';
-      }
-    }
-  </script>
 </html>
